@@ -8,19 +8,37 @@
             Padding="30,0"
             Spacing="25">
 
-            <Button x:Name="bt1">
-                <Button.Text>Boton1</Button.Text>
-            </Button>
+            <Button x:Name="bt1"
+                    Text="Boton1"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    BackgroundColor="Blue"
+                    HeightRequest="70"
+                    WidthRequest="200"
+                    FontFamily="Verdana"
+                    FontSize="16"
+                    FontAttributes="Bold"
+                    BorderColor="Yellow"
+                    BorderWidth="4"
+                    Margin="30"/>
 
-            <Button x:Name="bt2">
-                <Button.Text>Boton2</Button.Text>
-            </Button>
-
-            <Button x:Name="bt3">
-                <Button.Text>Boton3</Button.Text>
-            </Button>
+            <Button x:Name="bt2"
+                    Text="Boton2"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    BackgroundColor="Blue"
+                    HeightRequest="70"
+                    WidthRequest="200"
+                    FontFamily="Verdana"
+                    FontSize="16"
+                    Clicked="OnBt2Clicked"
+                    FontAttributes="Bold"
+                    BorderColor="Yellow"
+                    BorderWidth="4"
+                    Margin="30"/>
 
         </VerticalStackLayout>
     </ScrollView>
 
 </ContentPage>
+
